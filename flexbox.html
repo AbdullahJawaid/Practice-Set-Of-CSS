@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 15vh;
+        }
+        .nav-bar ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 2rem 2rem;
+
+        
+        }
+        .nav-bar li a{
+            padding: 1rem;
+            text-decoration: none;
+            margin:  2rem;
+            color: white;
+
+
+        }
+        section{
+            height: 50vh;
+            color: blue;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            margin: 1rem;
+        }
+        .left{
+            border: 2px solid red;
+            margin: 1rem 2rem;
+            padding: 5rem 2rem;
+            background-color: bisque;
+            color: black;
+            height: 50vh;
+            width: 50vw;
+
+        }
+        .right{
+            border: 2px solid red;
+            margin: 1rem 2rem;
+            padding: 5rem 2rem;
+            background-color: blanchedalmond;
+            color: black;
+            height: 50vh;
+            width: 50vw;
+        }
+    </style>
+    <title>FlexBox</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section>
+        <div class="left">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ad incidunt, deserunt reiciendis tenetur culpa ab sed, aspernatur voluptates dolores cumque doloremque amet sunt adipisci quibusdam obcaecati quidem. Provident, necessitatibus?</p>
+        </div>
+        <div class="right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ad incidunt, deserunt reiciendis tenetur culpa ab sed, aspernatur voluptates dolores cumque doloremque amet sunt adipisci quibusdam obcaecati quidem. Provident, necessitatibus?</p>
+        </div>
+    </section>
+    
+</body>
+</html>
